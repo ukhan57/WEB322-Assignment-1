@@ -4,8 +4,7 @@ var app = express();
 
 // setup a 'route' to listen on the default url path
 app.get("/", (req, res) => {
-    res.send("Student Name:- Umar Khan");
-    res.send("Student ID:- 145270211");
+    res.send("Student Name:- Umar Khan Student ID:- 145270211");
 });
 
 // setup http server to listen on HTTP_PORT
